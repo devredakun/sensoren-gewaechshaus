@@ -6,15 +6,15 @@ Es enthält **KEINE** Anleitung zum Anbau von Pflanzen jeglicher Art.
 
 ### Projektkontext
 Im Rahmen des CanG (Cannabisgesetz) vom 1. April 2024 wurde der private und vereinsmäßige Umgang mit Cannabis unter strengen Auflagen legalisiert.  
-Dieses Projekt betrachtet ausschließlich die technische Umsetzung eines Überwachungssystems für ein hypothetisches Gewächshaus (ca. 100 Plätze) – analog zu anderen kontrollierten Kulturräumen (z. B. Tomaten, Kräuter, Forschung).
+Dieses Projekt betrachtet ausschließlich die technische Umsetzung eines Überwachungssystems für ein hypothetisches Gewächshaus (ca. 100 Plätze).
 
 ### Geforderte Inhalte (werden vollständig bearbeitet)
 - Bauliche/technische Rahmenbedingungen  
 - Sicherheitsanforderungen  
 - Dokumentation, Nachverfolgbarkeit & IT  
-- 5 Sensorarten (real auf Raspberry Pi umgesetzt)  
+- 5 Sensorarten (auf Raspberry Pi umgesetzt)  
 - Infrastruktur-Zustände und Aktoren  
-- Netzwerkarchitektur, MQTT, InfluxDB, Node-RED  
+- Netzwerkarchitektur
 - Hardware-Konkretisierung (Redundanz, Datenspeicherung, Sicherheit)  
 - Realisierung mit Python und Raspberry Pi  
 - Übersichtsschaltplan + Quellcode + PDF-Abgabe
@@ -38,6 +38,6 @@ Es dient rein didaktischen Zwecken und stellt keine Anleitung zum Anbau, zur Ver
 Das gesamte Repository und alle enthaltenen Materialien sind urheberrechtlich geschützt (© 2025 [Dein Name]).  
 Jede Form der Reproduktion, Weitergabe oder Nutzung außerhalb des schulischen Rahmens ist untersagt.
 
-Projekt von: ZSRe
+Projekt von: ZSRe & Lami
 Betreuung: Grok (KI-Mentor)
 Stand: November 2025
