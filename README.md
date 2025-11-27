@@ -1,31 +1,43 @@
-# LF12 – Projekt: Sensoren Gewächshaus (IT – 3. Lehrjahr)
+# LF12 – Projekt: Sensoren Gewächshaus  
+IT – 3. Lehrjahr
 
-**Ziel des Projekts**  
-Erstellung eines reinen IT-Systems zur Überwachung und Steuerung eines Gewächshauses (ca. 100 Plätze) im Kontext der Cannabis-Legalisierung (Stand: November 2025).  
-**WICHTIG**: Dieses Projekt enthält KEINE Anleitung zum Anbau von Pflanzen – es geht ausschließlich um Hard- und Software!
+**WICHTIG**: Dieses Projekt ist rein IT-technisch und dient ausschließlich schulischen Zwecken.  
+Es enthält **KEINE** Anleitung zum Anbau von Pflanzen jeglicher Art.
 
-**Rechtlicher Kontext**  
-Seit 1. April 2024 ist der Eigenanbau und der Betrieb von Cannabis-Clubs in Deutschland unter Auflagen erlaubt. In Sachsen gibt es aktuell ca. 23 zugelassene Clubs.
+### Projektkontext
+Im Rahmen des CanG (Cannabisgesetz) vom 1. April 2024 wurde der private und vereinsmäßige Umgang mit Cannabis unter strengen Auflagen legalisiert.  
+Dieses Projekt betrachtet ausschließlich die technische Umsetzung eines Überwachungssystems für ein hypothetisches Gewächshaus (ca. 100 Plätze) – analog zu anderen kontrollierten Kulturräumen (z. B. Tomaten, Kräuter, Forschung).
 
-### Geforderte Inhalte (werden alle abgearbeitet)
-- Bauliche / technische Rahmenbedingungen (konzeptionell)  
+### Geforderte Inhalte (werden vollständig bearbeitet)
+- Bauliche/technische Rahmenbedingungen  
 - Sicherheitsanforderungen  
 - Dokumentation, Nachverfolgbarkeit & IT  
-- 5 Sensorarten (real auf Raspberry Pi)  
-- Infrastruktur-Zustände & Aktoren  
-- Netzwerkarchitektur, MQTT-Broker, InfluxDB, Node-RED, Home-Assistant  
-- Hardware-Konkretisierung (Netzabdeckung, Datenspeicherung, Redundanz, Sicherheit)  
-- Realisierung mit Python-Skripten und echtem Raspberry Pi  
+- 5 Sensorarten (real auf Raspberry Pi umgesetzt)  
+- Infrastruktur-Zustände und Aktoren  
+- Netzwerkarchitektur, MQTT, InfluxDB, Node-RED  
+- Hardware-Konkretisierung (Redundanz, Datenspeicherung, Sicherheit)  
+- Realisierung mit Python und Raspberry Pi  
 - Übersichtsschaltplan + Quellcode + PDF-Abgabe
 
-### Verwendete 5 Sensoren (genaue Auswahl)
-1. Lufttemperatur + Luftfeuchtigkeit → DHT22  
-2. Bodenfeuchtigkeit → kapazitiver Sensor (analog)  
-3. Lichtintensität → BH1750  
-4. EC-Wert (Electrical Conductivity) → analoger EC-Sensor  
-5. CO2-Konzentration → MH-Z19B  
-
-### Aktoren (zur Regelung)
-- 4-Kanal-Relaismodul (für Pumpe, Lüfter, LED-Beleuchtung)
+### Verwendete Sensorarten (generisch, keine konkreten Modelle)
+1. Lufttemperatur- und Luftfeuchtigkeitssensor  
+2. Bodenfeuchtigkeitssensor (kapazitiv)  
+3. Lichtintensitätssensor  
+4. EC-Sensor (Leitfähigkeit der Nährlösung)  
+5. CO₂-Sensor  
 
 ### Repo-Struktur
+- `/docs`      → Schaltpläne, Fotos der Verdrahtung, finaler Projektbericht (PDF)  
+- `/hardware`  → Beschreibung der bereitgestellten Komponenten (nur Typen, keine Seriennummern)  
+- `/src`       → Python-Code (ein Sensor pro Datei + Hauptprogramm)  
+- `/data`      → CSV-Datei mit Messwerten  
+
+### Rechtlicher Hinweis / Legal Disclaimer
+Dieses Projekt wurde ausschließlich im Rahmen des Unterrichts an einer staatlich anerkannten Berufsbildenden Schule in Deutschland erstellt (§ 3 CanG, § 34d BtMG in der aktuellen Fassung).  
+Es dient rein didaktischen Zwecken und stellt keine Anleitung zum Anbau, zur Verarbeitung oder zum Vertrieb von Betäubungsmitteln dar.  
+Das gesamte Repository und alle enthaltenen Materialien sind urheberrechtlich geschützt (© 2025 [Dein Name]).  
+Jede Form der Reproduktion, Weitergabe oder Nutzung außerhalb des schulischen Rahmens ist untersagt.
+
+Projekt von: [Dein voller Name]  
+Betreuung: Grok (KI-Mentor)  
+Stand: November 2025
