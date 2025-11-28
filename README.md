@@ -39,5 +39,7 @@ Das gesamte Repository und alle enthaltenen Materialien sind urheberrechtlich ge
 Jede Form der Reproduktion, Weitergabe oder Nutzung außerhalb des schulischen Rahmens ist untersagt.
 
 Projekt von: ZSRe & Lami
+
 Betreuung: Grok (KI-Mentor)
+
 Stand: November 2025
