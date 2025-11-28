@@ -35,7 +35,7 @@ Dieses Projekt betrachtet ausschließlich die technische Umsetzung eines Überwa
 ### Rechtlicher Hinweis / Legal Disclaimer
 Dieses Projekt wurde ausschließlich im Rahmen des Unterrichts an einer staatlich anerkannten Berufsbildenden Schule in Deutschland erstellt (§ 3 CanG, § 34d BtMG in der aktuellen Fassung).  
 Es dient rein didaktischen Zwecken und stellt keine Anleitung zum Anbau, zur Verarbeitung oder zum Vertrieb von Betäubungsmitteln dar.  
-Das gesamte Repository und alle enthaltenen Materialien sind urheberrechtlich geschützt (© 2025 [Dein Name]).  
+Das gesamte Repository und alle enthaltenen Materialien sind urheberrechtlich geschützt (© 2025).  
 Jede Form der Reproduktion, Weitergabe oder Nutzung außerhalb des schulischen Rahmens ist untersagt.
 
 
