@@ -38,6 +38,8 @@ Es dient rein didaktischen Zwecken und stellt keine Anleitung zum Anbau, zur Ver
 Das gesamte Repository und alle enthaltenen Materialien sind urheberrechtlich geschützt (© 2025 [Dein Name]).  
 Jede Form der Reproduktion, Weitergabe oder Nutzung außerhalb des schulischen Rahmens ist untersagt.
 
+
+
 Projekt von: ZSRe & Lami
 
 Betreuung: Grok (KI-Mentor)
