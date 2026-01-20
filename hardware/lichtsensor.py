@@ -1,7 +1,7 @@
 from gpiozero import DigitalInputDevice
 from time import sleep
 
-lichtsensor = DigitalInputDevice(6)  # BCM 5
+lichtsensor = DigitalInputDevice(6)  # 31
 
 try:
     while True:
