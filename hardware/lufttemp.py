@@ -1,24 +1,19 @@
-import random
-from time import sleep
+import time
+import board
+import adafruit_dht
+
+dht = adafruit_dht.DHT11(board.D11)
 
 try:
     while True:
-        # Werte für Gewächshaus
-        temp = round(random.uniform(18.0, 30.0), 1)      # 18–30 °C
-        feuchte = round(random.uniform(35.0, 75.0), 1)   # 35–75 %
+        try:
+            temp = dht.temperature
+            hum = dht.humidity
+            print(f"Temperatur: {temp:.1f} °C")
+            print(f"Luftfeuchtigkeit: {hum:.1f} %")
+        except RuntimeError as e:
+            print("Lesefehler:", e)
+        time.sleep(5)
+finally:
+    dht.exit()
 
-        print(f"Temperatur: {temp} °C")
-        print(f"Luftfeuchtigkeit: {feuchte} %")
-
-        # Einfache Aktor-Simulation
-        if temp > 28:
-            print("Zu heiß → Fenster öffnen oder Klimaanlage einschalten!")
-        elif temp < 20:
-            print("Zu kalt → Heizung einschalten!")
-        else:
-            print("Temperatur ok – keine Aktion nötig")
-
-        print("---")
-        sleep(5)
-except KeyboardInterrupt:
-    print("Programm beendet")
