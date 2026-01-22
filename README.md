@@ -21,9 +21,9 @@ Dieses Projekt betrachtet ausschließlich die technische Umsetzung eines Überwa
 
 ### Verwendete Sensorarten (generisch, keine konkreten Modelle)
 1. Lufttemperatur- und Luftfeuchtigkeitssensor  
-2. Bodenfeuchtigkeitssensor (kapazitiv)  
+2. Bodenfeuchtigkeitssensor
 3. Lichtintensitätssensor  
-4. EC-Sensor (Leitfähigkeit der Nährlösung)  
+4. Finger-Sensor
 5. CO₂-Sensor  
 
 ### Repo-Struktur
@@ -41,7 +41,5 @@ Jede Form der Reproduktion, Weitergabe oder Nutzung außerhalb des schulischen R
 
 
 Projekt von: ZSRe & Lami
-
-Betreuung: Grok (KI-Mentor)
 
 Stand: November 2025
